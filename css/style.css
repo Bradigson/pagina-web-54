@@ -218,3 +218,77 @@ header{
     border-radius:10px;
     filter:drop-shadow(1px 5px 5px rgba(0,0,0,.4));
 }
+
+
+/*footer*/
+footer{
+    height:50vh;
+    display:flex;
+}
+.footer__content1{
+    display:flex;
+    justify-content:center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items:center;
+    width:50%;
+    padding:0px 20px;
+
+}
+.content1, .content2, .content3{
+    margin-right:80px;
+}
+.footer__content2{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    padding:20px 50px;
+}
+.footer__content2 > input{
+    margin-bottom:20px;
+    line-height: 3;
+    padding-left:20px;
+    background:rgba(87, 84, 84, 0.4);
+    border:none;
+    outline:none;
+}
+.footer__content2 > input::placeholder{
+    color:#eee;
+
+}
+.footer__content2 > button{
+    width:200px;
+}
+
+.bxl-twitter, .bxl-facebook-circle, .bxl-instagram{
+    margin-right:20px;
+    font-size:40px;
+    text-shadow:1px 2px 1px rgba(98, 95, 95,.4);
+    color:rgb(98, 95, 95);
+}
+.bxl-twitter:hover{
+    color:red;
+}
+.bxl-twitter:hover{
+    color:#fff;
+    text-shadow:0 0 5px #f8f828,
+    0 0 15px #f8f828,
+    0 0 30px #f8f828,
+    0 0 60px #f8f828;
+}
+
+.bxl-facebook-circle:hover{
+    color:#fff;
+    text-shadow:0 0 5px #f8f828,
+    0 0 15px #f8f828,
+    0 0 30px #f8f828,
+    0 0 60px #f8f828;
+}
+.bxl-instagram:hover{
+    color:#fff;
+    text-shadow:0 0 5px #f8f828,
+    0 0 15px #f8f828,
+    0 0 30px #f8f828,
+    0 0 60px #f8f828;
+}
